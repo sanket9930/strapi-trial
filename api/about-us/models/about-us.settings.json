@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "name": "About-Us"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "metas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.sco"
+    },
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "page.button-zone"
+      ]
+    }
+  }
+}

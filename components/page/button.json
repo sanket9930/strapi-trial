@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_buttons",
+  "info": {
+    "name": "button",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "text"
+    },
+    "HyperLink": {
+      "type": "string"
+    }
+  }
+}

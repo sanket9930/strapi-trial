@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_scos",
+  "info": {
+    "name": "SEO",
+    "icon": "search",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "property": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  }
+}

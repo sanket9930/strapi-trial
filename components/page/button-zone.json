@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_button_zones",
+  "info": {
+    "name": "Button-Zone",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.button"
+    }
+  }
+}
